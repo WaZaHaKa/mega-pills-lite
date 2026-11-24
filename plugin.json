@@ -1,0 +1,22 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "mega-pills-lite",
+  "version": "0.1.0-rc.1",
+  "description": "One self-contained skill for turning messy requests into safe, useful drafts and checks.",
+  "keywords": [
+    "workflow",
+    "triage",
+    "evidence"
+  ],
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "Mega Pills Lite",
+        "shortDescription": "Choose the next useful step without inventing access or evidence.",
+        "defaultPrompt": [
+          "Use Mega Pills Lite to sort this request and give me the next useful result."
+        ]
+      }
+    }
+  }
+}
